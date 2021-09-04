@@ -264,7 +264,7 @@ endif
 exec 'highlight lCursor ctermfg=bg ctermbg=' . s:grey247.term . ' guifg=bg guibg=' . s:grey247.hex
 exec 'highlight CursorLineNr ctermbg=' . s:sky.term . ' ctermfg=' . s:grey233.term . ' cterm=none guibg=' . s:sky.hex . ' guifg=' . s:grey233.hex . ' gui=none'
 exec 'highlight CursorColumn ctermbg=' . s:grey234.term . ' cterm=none guibg=' . s:grey234.hex
-exec 'highlight CursorLine ctermbg=' . s:sky.term . ' cterm=none guibg=' . s:sky.hex
+exec 'highlight CursorLine ctermbg=' . s:grey0.term . ' cterm=none guibg=' . s:grey0.hex
 exec 'highlight Folded ctermbg=' . s:grey234.term . ' ctermfg=' . s:lime.term . ' guibg=' . s:grey234.hex . ' guifg='. s:lime.hex
 exec 'highlight FoldColumn ctermbg=' . s:grey236.term . ' ctermfg=' . s:lime.term . ' guibg=' . s:grey236.hex . ' guifg=' . s:lime.hex
 exec 'highlight SignColumn ctermbg=bg ctermfg=' . s:lime.term . ' guibg=bg guifg=' . s:lime.hex
