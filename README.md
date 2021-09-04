@@ -1,3 +1,6 @@
+this is a fork of https://github.com/bluz71/vim-moonfly-colors to match https://github.com/thiagolucio/OSX-Arc-Shadow
+
+==========
 ![moonfly](https://raw.githubusercontent.com/bluz71/misc-binaries/master/headings/moonfly.png)
 ==========
 
