@@ -39,7 +39,7 @@ let g:moonflyVertSplits = get(g:, 'moonflyVertSplits', 1)
 let g:moonflyNormalFloat = get(g:, 'moonflyNormalFloat', 0)
 
 " Background and foreground
-let s:black     = {"hex": '#080808', "term": 232}
+let s:black     = {"hex": '#383C4A', "term": 232}
 let s:white     = {"hex": '#c6c6c6', "term": 251}
 " Variations of charcoal-grey
 let s:grey0     = {"hex": '#323437', "term": 0  }
@@ -48,7 +48,7 @@ let s:grey249   = {"hex": '#b2b2b2', "term": 249}
 let s:grey247   = {"hex": '#9e9e9e', "term": 247}
 let s:grey246   = {"hex": '#949494', "term": 246}
 let s:grey244   = {"hex": '#808080', "term": 244}
-let s:grey241   = {"hex": '#626262', "term": 241}
+let s:grey241   = {"hex": '#eceff1', "term": 241}
 let s:grey237   = {"hex": '#3a3a3a', "term": 237}
 let s:grey236   = {"hex": '#303030', "term": 236}
 let s:grey235   = {"hex": '#262626', "term": 235}
@@ -262,9 +262,9 @@ else
     exec 'highlight Cursor ctermfg=bg ctermbg=' . s:grey247.term . ' guifg=bg guibg=' . s:grey247.hex
 endif
 exec 'highlight lCursor ctermfg=bg ctermbg=' . s:grey247.term . ' guifg=bg guibg=' . s:grey247.hex
-exec 'highlight CursorLineNr ctermbg=' . s:grey234.term . ' ctermfg=' . s:blue.term . ' cterm=none guibg=' . s:grey234.hex . ' guifg=' . s:blue.hex . ' gui=none'
+exec 'highlight CursorLineNr ctermbg=' . s:sky.term . ' ctermfg=' . s:grey233.term . ' cterm=none guibg=' . s:sky.hex . ' guifg=' . s:grey233.hex . ' gui=none'
 exec 'highlight CursorColumn ctermbg=' . s:grey234.term . ' cterm=none guibg=' . s:grey234.hex
-exec 'highlight CursorLine ctermbg=' . s:grey234.term . ' cterm=none guibg=' . s:grey234.hex
+exec 'highlight CursorLine ctermbg=' . s:sky.term . ' cterm=none guibg=' . s:sky.hex
 exec 'highlight Folded ctermbg=' . s:grey234.term . ' ctermfg=' . s:lime.term . ' guibg=' . s:grey234.hex . ' guifg='. s:lime.hex
 exec 'highlight FoldColumn ctermbg=' . s:grey236.term . ' ctermfg=' . s:lime.term . ' guibg=' . s:grey236.hex . ' guifg=' . s:lime.hex
 exec 'highlight SignColumn ctermbg=bg ctermfg=' . s:lime.term . ' guibg=bg guifg=' . s:lime.hex
